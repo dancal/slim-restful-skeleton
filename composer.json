@@ -1,0 +1,17 @@
+{
+    "name": "adasilva/slim-restful-skeleton",
+    "description": "Skeleton for slim app with slim-restful",
+    "license": "MIT",
+    "require": {
+        "adasilva/slim-restful": "^v1.0-beta"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "src/controllers",
+            "Routes\\": ["src/routes", "src/routes/middlewares"]
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:8080 -t public"
+    }
+}

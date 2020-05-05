@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Routes file example with xml -->
+
+<routing>
+    <middlewares namespace="Routes\">
+        <add middleware="TestMiddleware" annotation="test" />
+    </middlewares>
+
+    <routes namespace="Controllers\">
+        <add name="hello" pattern="/hello" controller="HelloController"/>
+    </routes>
+</routing>
