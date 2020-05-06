@@ -3,7 +3,7 @@
     "description": "Skeleton for slim app with slim-restful",
     "license": "MIT",
     "require": {
-        "adasilva/slim-restful": "^v1.0-beta"
+        "dancal/slim-restful": "^v1.0-beta"
     },
     "autoload": {
         "psr-4": {
